@@ -14,6 +14,7 @@ Android 5.+ (API 21)
 # Usage
 
 Add `android:clipChildren="false"`, `android:clipToPadding="false"` to the parent layout to let ShadowLayout draw outside of view bounds.
+Also, the default android elevation is disable. You can use android elevation to put this view on top others if clipping happen.
 
 ```xml
 <fr.orandja.shadowlayout.ShadowLayout
