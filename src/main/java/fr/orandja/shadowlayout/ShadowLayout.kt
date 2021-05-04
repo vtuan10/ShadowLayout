@@ -18,6 +18,7 @@ import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.Nullable
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.scaleMatrix
 import androidx.core.graphics.times
@@ -31,7 +32,7 @@ open class ShadowLayout @JvmOverloads constructor(
     @Nullable attrs: AttributeSet? = null,
     defStyleAttr: Int = 0,
     defStyleRes: Int = 0
-) : FrameLayout(context, attrs, defStyleAttr, defStyleRes) {
+) : ConstraintLayout(context, attrs, defStyleAttr, defStyleRes) {
 
     companion object {
         @JvmField
